@@ -1,5 +1,10 @@
 # TC0xB_Samples
 
+Board manager to load:
+
+https://dl.espressif.com/dl/package_esp32_index.json
+
+
 Libraries To Fetch: 
 
 
