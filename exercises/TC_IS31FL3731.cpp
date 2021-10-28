@@ -231,20 +231,19 @@ void TC_IS31FL3731::setBadgeLED(LED led, uint8_t pwm, uint8_t bank) {
       writeRegister8(bank, 0x9B, pwm);
       break;
 
-    // TODO: set the correct registers
-    case SEAT1_LED:
+    case SEAT2_LED:
       writeRegister8(bank, 0x35, pwm);
       break;
 
-    case SEAT2_LED:
+    case SEAT1_LED:
       writeRegister8(bank, 0x45, pwm);
       break;
 
-    case SEAT3_LED:
+    case SEAT4_LED:
       writeRegister8(bank, 0x24, pwm);
       break;
 
-    case SEAT4_LED:
+    case SEAT3_LED:
       writeRegister8(bank, 0x34, pwm);
       break;
 
